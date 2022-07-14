@@ -1,0 +1,103 @@
+.loginScreen{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/0bd3a69d-6790-4edc-9818-1c8c558946c2/e1a8a32a-a07a-4bae-965a-9b218881763e/IN-en-20220329-popsignuptwoweeks-perspective_alpha_website_large.jpg") center no-repeat;
+    background-size: cover;
+
+}
+ 
+.loginScreen_logo {
+  position: absolute;
+  left: 0;
+  width: 150px;
+  height: 80px;
+  object-fit: contain;  
+    /* in future if  we change something it in the future its going to keep its aspect ratio .  */
+  padding-left: 20px ;
+  z-index: 100;
+}
+
+.loginScreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+   );
+}
+ 
+
+.loginScreen_button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size:  1rem;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #09bbe3d7;
+    font-weight: 600;
+    border: none ;
+    cursor: pointer;
+    border: 1px solid #06f9d4;
+}
+.loginScreen_body{
+    position: absolute ;
+    width: 100%;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px 0px;
+    left: 0; 
+    right: 0;
+}
+.loginScreen_body >h1{
+    font-size: 1.62rem;
+    margin-bottom: 20px;
+}
+.loginScreen_body>h2 {
+    font-size: 1.28rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.loginScreen_body>h3 {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.loginScreen_input{
+   margin: 20px;
+}
+ 
+.loginScreen_input > form >input{
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+.loginScreen_getStarted{
+     height: 50px;
+    padding:16px 20px ;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #09bbe3d7;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateY(0.08rem);
+}
+
+@media screen and (max-width: 760px) {
+    .loginScreen_logo, .loginScreen_button, .loginScrenn_navlinks{
+        transform: scale(0.7);
+    }
+}

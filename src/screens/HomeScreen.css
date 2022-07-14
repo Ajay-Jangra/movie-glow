@@ -1,0 +1,15 @@
+.App {
+  background-color: #111;
+  color: white;
+}
+
+footer{
+  padding: 60px;
+  background-color:#111;
+     
+}
+ 
+ .footer-about-dev a{
+     text-decoration: none;
+     color: crimson;
+ }

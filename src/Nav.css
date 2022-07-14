@@ -1,0 +1,56 @@
+.nav{
+    position:fixed;
+    top: 0 ;
+    width: 100%;
+     padding: 20px;
+
+    z-index: 1;
+    height: 30px;
+    display:flex;
+    /* justify-content:space-between; */
+
+   /* animation */
+   transition-timing-function: ease-in;
+   transition: all 0.5s;
+}
+.nav_black{
+    background-color: #111;
+    z-index: 1000;
+    
+}
+.nav_logo{
+    width: 100px;
+    position: fixed;
+    left: 20px;
+    object-fit: contain;
+     cursor: pointer;
+    
+}
+.nav_avatar{
+    width: 30px;
+    position:  fixed;
+      cursor: pointer;
+    right: 20px;
+    object-fit: contain;
+     
+}
+
+
+
+ /* search bar  */
+ 
+ .searchButton {
+     margin-bottom: 5px;
+     right: 80px;
+     position: fixed;
+     color: rgb(179, 78, 73);
+     font-size: 22px;
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+     transition: 0.2s ease-in;
+ }
+
+ .searchButton:hover {
+    color: aqua;
+ }

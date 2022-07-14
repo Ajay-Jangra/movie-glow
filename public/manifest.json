@@ -1,0 +1,16 @@
+{
+  "short_name": "Movie-Glow",
+  "name": "creating a web app using react ",
+  "description":" creating a netflix type clone using the following tech and tools ES6, JSX, React, Javascript, CSS , BootStrap, Axios , TMDB Api. ",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
